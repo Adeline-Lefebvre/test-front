@@ -1,9 +1,10 @@
-import VehiculeIndex from "./domains/Vehicles";
+import CarsList from "./components/CarsList/CarsList";
 
 function App() {
   return (
     <div className="App">
-      <VehiculeIndex />
+      {/* Review: J'ai donné un nom plus parlant au composant */}
+      <CarsList />
     </div>
   );
 }
